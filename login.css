@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://mediacentre.britishairways.com/contents/archives/216/86/sites__cms/CI_hs-image-container-i180003-483_65f99e5668831.jpg);
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+  padding: 30px;
+  gap: 10px;
+  border: 1px solid gray;
+  background-color: white;
+  font-family: "Noto Sans", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin: none;
+}
+h1 {
+  color: #2e5c99;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  list-style: none;
+  flex-direction: row;
+  gap: 20px;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+}
+header nav ul:hover {
+  color: #2e5c99;
+}
+.language {
+  display: flex;
+  gap: 20px;
+}
+.login {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+}
+.navfirst {
+  display: flex;
+  justify-items: space;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.secondnav {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.all {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px;
+  padding: 20px;
+  gap: 20px;
+}
+input {
+  padding: 10px;
+  width: 1000px;
+  border-radius: 20px;
+  border: none;
+}
+button {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 300px;
+  font-weight: bold;
+  transition: all 200ms ease-in;
+  border-radius: 20px;
+  border: none;
+}
+button:hover {
+  background-color: #2e5c99;
+  color: white;
+}
+#gender {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 1000px;
+}
+#showmessage {
+  transition: all 200ms ease-in;
+}
+#showmessage:hover {
+  background-color: white;
+}
+h2 {
+  font-family: "Noto Sans", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: white;
+}
